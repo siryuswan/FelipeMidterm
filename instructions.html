@@ -1,0 +1,62 @@
+Setting up Git
+
+    Download git on a site called git-scm.com. Follow the instructions for your operating system to install Git.
+
+    After downloading, check the file manager and click it to set it up.
+
+    Just click "Next" on all the default settings until you reach the end of the installation process.
+
+Setting up VS Code
+
+    Download Visual Studio Code from code.visualstudio.com. Follow the instructions for your operating system to install VS Code.
+
+    After downloading, check the file manager and click it to set it up.
+
+    Just click "Next" on all the default settings until you reach the end of the installation process.
+
+Setting up GitHub Account
+
+    Go to github.com and sign up for a free account if you don't already have one.
+
+    Make sure to verify your email address after signing up.
+
+    Setting up GitHub Repository
+
+    Log in to your GitHub account.
+
+    Click on the "+" icon in the top right corner and select "New repository".
+
+    Name your repository (e.g., "my-first-repo") and add a description if you like.
+
+    Click "Create repository" to finish setting up your repository.
+
+Setting up the task
+
+    Create a folder on your computer where you want to store your project files.
+
+    Open VS Code and go to File > Open Folder, then select the folder you just created.
+
+    Open the terminal in VS Code by going to View > Terminal.
+
+    In the terminal, choose change powershell and choose git bash
+
+    After choosing git bash, type the following commands to initialize a Git repository and link it to your GitHub repository:
+
+     git init
+     git config --global user.name "Your Name"
+     git config --global user.email "you@youraddress.com"
+     git config --global push.default matching
+     git config --global alias.co checkout
+    
+    After that, type:
+
+     git init
+     git add README.md
+     git commit -m "first commit"
+     git branch -M main
+     git remote add origin https://github.com/siryuswan/FelipeMidterms
+     git push -u origin main
+
+    Make sure that you added a file named README.md in your folder before running the above commands.
+
+    Refresh Github to see your changes.
